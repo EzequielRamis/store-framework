@@ -1,15 +1,15 @@
 {
   "store.home": { 
     "blocks": [
-      "responsive-layout.desktop",
-      "responsive-layout.mobile"
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
     ]
   },
-  "responsive-layout.desktop": {
+  "responsive-layout.desktop#desktop": {
     "children": ["rich-text#desktop", "image#desktop"]
   },
   
-  "responsive-layout.mobile": {
+  "responsive-layout.mobile#mobile": {
     "children": ["rich-text#mobile", "image#mobile"]
   },
   
@@ -29,19 +29,14 @@
     }
   },
 
-  "image": {
-    "props":{
-      "maxWidth": "100%"
-    }
-  },
-
   "image#desktop": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
       "link": {
         "url": "/small-appliances/coffee-makers"
       } ,
-      "alt": "Coffee Makers Collection"
+      "alt": "Coffee Makers Collection",
+      "maxWidth": "100%"
     }
   },
   
@@ -51,7 +46,8 @@
       "link": {
         "url": "/small-appliances/coffee-makers"
       } ,
-      "alt": "Coffee Makers Collection"
+      "alt": "Coffee Makers Collection",
+      "maxWidth": "100%"
     }
   }
 }
