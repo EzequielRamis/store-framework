@@ -138,7 +138,7 @@
     },
     "tab-content.item#home2": {
       "children":[
-        "rich-text#home2"
+        "rich-text#home2" 
       ]
     },
     "rich-text#home1": {
